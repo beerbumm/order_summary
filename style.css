@@ -1,0 +1,128 @@
+body {
+  background: #e0e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+h1 {
+  color: #25375f;
+  font-weight: 900;
+  font-size: 30px;
+  padding-bottom: 7px;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-size: 16px;
+}
+
+span {
+  color: #6f7895;
+}
+
+.btn {
+  background: hsl(245, 75%, 52%);
+  color: white;
+  margin-top: 45px;
+  width: 341px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 2.1rem;
+  box-shadow: 0 19px 26px -3px #e3e0fd;
+}
+
+.card {
+  width: 28.188rem;
+  height: 43.5rem;
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-body {
+  margin-top: 1rem;
+}
+
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  top: 10px;
+}
+
+.desktop .rectangle {
+  width: 354px;
+  height: 98px;
+
+  background-color: #f8f9fe;
+  border-radius: 10px;
+}
+
+.desktop .text-wrapper {
+  position: absolute;
+  width: 96px;
+  top: 25px;
+  left: 92px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 800;
+  color: #5b647a;
+  font-size: 16px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .div {
+  position: absolute;
+  width: 96px;
+  top: 40px;
+  left: 254px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 700;
+  color: #746ac7;
+  font-size: 14px;
+  line-height: normal;
+  text-decoration: underline;
+}
+
+.desktop .text-wrapper-2 {
+  position: absolute;
+  width: 96px;
+  top: 52px;
+  left: 90px;
+  font-family: "Red Hat Display", sans-serif;
+  font-weight: 500;
+  color: #71768c;
+  font-size: 16px;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 49px;
+  height: 49px;
+  top: 25px;
+  left: 22px;
+  background-color: #dde2ee;
+  border-radius: 24.5px;
+}
+
+.desktop .screenshot {
+  position: absolute;
+  width: 24px;
+  height: 28px;
+  top: 35px;
+  left: 36px;
+  object-fit: cover;
+}
