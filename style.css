@@ -22,6 +22,13 @@ p {
 
 span {
   color: #6f7895;
+  font-weight: 700;
+  transition: color 0.3s ease;
+}
+
+span:hover{
+    color: #25375f;
+    cursor: pointer;
 }
 
 .btn {
@@ -32,7 +39,13 @@ span {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 2.1rem;
-  box-shadow: 0 19px 26px -3px #e3e0fd;
+  box-shadow: 0 19px 26px -3px #dedbf8;
+  transition: background-color 0.5s ease;
+}
+
+.btn:hover {
+    background: #766cf1;
+    color: white;
 }
 
 .card {
@@ -64,7 +77,6 @@ span {
 .desktop .rectangle {
   width: 354px;
   height: 98px;
-
   background-color: #f8f9fe;
   border-radius: 10px;
 }
@@ -76,7 +88,7 @@ span {
   left: 92px;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 800;
-  color: #5b647a;
+  color: #25375f;
   font-size: 16px;
   line-height: normal;
   white-space: nowrap;
@@ -89,10 +101,16 @@ span {
   left: 254px;
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
-  color: #746ac7;
+  color: #766cf1;
   font-size: 14px;
   line-height: normal;
   text-decoration: underline;
+  transition: text-decoration 0.5s ease;
+}
+
+.desktop .div:hover {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .desktop .text-wrapper-2 {
