@@ -6,6 +6,9 @@ body {
   height: 100vh;
   margin: 0;
   font-family: "Red Hat Display", sans-serif;
+  background-image: url("pattern-background-desktop.svg");
+  background-repeat: no-repeat, repeat;
+  background-size: 100% 50%;
 }
 
 h1 {
@@ -26,9 +29,9 @@ span {
   transition: color 0.3s ease;
 }
 
-span:hover{
-    color: #25375f;
-    cursor: pointer;
+span:hover {
+  color: #25375f;
+  cursor: pointer;
 }
 
 .btn {
@@ -44,8 +47,8 @@ span:hover{
 }
 
 .btn:hover {
-    background: #766cf1;
-    color: white;
+  background: #766cf1;
+  color: white;
 }
 
 .card {
@@ -109,8 +112,8 @@ span:hover{
 }
 
 .desktop .div:hover {
-    text-decoration: none;
-    cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .desktop .text-wrapper-2 {
