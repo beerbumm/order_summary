@@ -8,7 +8,7 @@ body {
   font-family: "Red Hat Display", sans-serif;
   background-image: url("pattern-background-desktop.svg");
   background-repeat: no-repeat;
-  background-size: 100% 50%;
+
   background-position: center top;
 }
 
@@ -59,6 +59,7 @@ span:hover {
   border-radius: 15px;
   overflow: hidden;
   text-align: center;
+  box-shadow: 0 19px 26px -3px #cdd7fa;
 }
 
 .card-body {
